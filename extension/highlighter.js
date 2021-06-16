@@ -358,7 +358,7 @@ else
     var tbElem = createNewElement('input',pageRef,'','padding-left:5px;font-size:12px;line-height:normal;border-color:black;border-width:1px;border-style:solid',formElem,'rmHLtb','rmHLtb');
     tbElem.placeholder = "#[[Roam-Highlights]]";
 
-    if(getPage.includes('read.amazon.com/notebook'))
+    if(getPage.includes('read.amazon.co.jp/notebook'))
     {
         //Text box for Kindle-highlights tag
         var labelKindle4 = createNewElement('label','Highlights #Tag: ','rmHLkingleTb1','font-size:12px;line-height:normal;color:black;font-weight:bold;display:inline;margin-right:5px;vertical-align:middle;padding:0px',divKindle,'','');
@@ -805,7 +805,7 @@ else
 
     formElem.appendChild(document.createElement('br'));
     var link6 = createNewElement('a','Kindle Notes & Highlights','','font-size:12px;line-height:normal;color:blue',formElem,'','');
-    link6.href = 'https://read.amazon.com/notebook';
+    link6.href = 'https://read.amazon.co.jp/notebook';
 
     var butMax = createNewElement('button','Expand','','float:right;background-color:black;color:white;border-color:white;width:25%;font-size:12px;line-height:normal;border-color:white;border-width:1px;border-style:solid;cursor:pointer;padding:5px;height: 100%',divButtonsElem,'rmHLexpand','rmHLexpand');
 
@@ -817,7 +817,7 @@ else
 
         if(butMax.innerHTML == "Expand")
         {
-            if(getPage.includes('read.amazon.com/notebook'))
+            if(getPage.includes('read.amazon.co.jp/notebook'))
             {
                 divElem.style.width = "90%";
                 divElem.style.height = "80%";
@@ -1108,7 +1108,7 @@ Roam-highlighter Shortcut Keys (v${verNum})
         }
         else
         {
-            window.alert('Not on kindle page. Go to: https://read.amazon.com/notebook');
+            window.alert('Not on kindle page. Go to: https://read.amazon.co.jp/notebook');
         }
     }
 

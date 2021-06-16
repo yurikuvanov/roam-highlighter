@@ -416,7 +416,7 @@ else
                 formElem.appendChild(document.createElement('br'));
                 var link6 = document.createElement('a');
                     link6.innerText = 'Kindle Notes & Highlights';
-                    link6.href = 'https://read.amazon.com/notebook';
+                    link6.href = 'https://read.amazon.co.jp/notebook';
                     link6.style.cssText = 'font-size:12px;line-height:normal';
                     //link6.style.cssText = 'font-weight:bold;';
                     formElem.appendChild(link6);
@@ -653,7 +653,7 @@ Roam-highlighter Shortcut Keys (v${verNum})
         }
         else
         {
-            window.alert('Not on kindle page. Go to: https://read.amazon.com/notebook');
+            window.alert('Not on kindle page. Go to: https://read.amazon.co.jp/notebook');
         }
     }
 

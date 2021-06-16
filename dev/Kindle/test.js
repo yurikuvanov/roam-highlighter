@@ -1,4 +1,4 @@
-//https://read.amazon.com/kp/notebook?ref_=k4w_ms_notebook
+//https://read.amazon.co.jp/kp/notebook?ref_=k4w_ms_notebook
 //Need to fix the line breaks into ctrl+shift+V using HTML when integrate into roam-highlighter and the clipboard
 
 var divElem = document.createElement('div');

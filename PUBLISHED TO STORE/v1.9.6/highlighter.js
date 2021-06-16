@@ -232,7 +232,7 @@ else
                 labelElem.htmlFor = "rmHLtb";
                 labelElem.style.cssText = 'font-size:12px;line-height:normal;color:black;font-weight:bold;display:inline-block';
                 formElem.appendChild(labelElem);
-            if(getPage.includes('read.amazon.com/notebook'))
+            if(getPage.includes('read.amazon.co.jp/notebook'))
             {
                 var butExtractKindle = document.createElement('button');
                     butExtractKindle.style.cssText = 'background-color:black;color:white;border-color:white;margin-left:30px;font-size:12px;line-height:normal;border-color:white;border-width:1px;border-style:solid;cursor:pointer;padding:5px;float:right';
@@ -266,7 +266,7 @@ else
                 tbElem.name = "rmHLtb";
                 tbElem.placeholder = "#[[Roam-Highlights]]";
                 formElem.appendChild(tbElem);
-            if(getPage.includes('read.amazon.com/notebook'))
+            if(getPage.includes('read.amazon.co.jp/notebook'))
             {
                     //Text box for Kindle-highlights tag
                     var labelKindle4 = document.createElement('label');
@@ -580,7 +580,7 @@ else
                 formElem.appendChild(document.createElement('br'));
                 var link6 = document.createElement('a');
                     link6.innerText = 'Kindle Notes & Highlights';
-                    link6.href = 'https://read.amazon.com/notebook';
+                    link6.href = 'https://read.amazon.co.jp/notebook';
                     link6.style.cssText = 'font-size:12px;line-height:normal';
                     //link6.style.cssText = 'font-weight:bold;';
                     formElem.appendChild(link6);
@@ -862,7 +862,7 @@ Roam-highlighter Shortcut Keys (v${verNum})
         }
         else
         {
-            window.alert('Not on kindle page. Go to: https://read.amazon.com/notebook');
+            window.alert('Not on kindle page. Go to: https://read.amazon.co.jp/notebook');
         }
     }
 
