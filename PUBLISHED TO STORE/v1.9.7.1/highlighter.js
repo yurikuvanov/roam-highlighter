@@ -884,7 +884,7 @@ Roam-highlighter Shortcut Keys (v${verNum})
 
     function getKindleHighlights(event)
     {
-        if(pageTitle == 'Kindle: Your Notes and Highlights')
+        if(pageTitle == 'Kindle: メモとハイライト ')
         {
             //window.alert('Ready to extract notes');
 
